@@ -5,10 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../CSS/style.css" />
   <title>Event seeker</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../CSS/style.css" />
 </head>
 
 <body>
@@ -54,16 +56,67 @@
     </ul>
   </div>
 
+  
+  <div class="select-options container">
+    <div class="row">
+      <div class="col">
+        <div class="dropdown">
+          <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+            Date
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown">
+          <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+            Location
+          </button>
+          <div class="dropdown-menu " id="date-option">
+            <a class="dropdown-item" href="#">Helsinki</a>
+            <a class="dropdown-item" href="#">Espoo</a>
+            <a class="dropdown-item" href="#">Vantaa</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown">
+          <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+            Type
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Language</a>
+            <a class="dropdown-item" href="#">Country</a>
+            <a class="dropdown-item" href="#">Food</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dropdown">
+          <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+            Distance
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    
 
   <footer class="footer">
     <div class="container">
     <p>@ Group Bravo  </p>
     </div>
   </footer>
-
+  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
+  <!-- js files -->
+  <script src="../src/date.js"></script>
 </body>
 
 </html>

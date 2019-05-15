@@ -21,6 +21,11 @@ body {
 .card{
     float: right;
 }
+.table{
+  margin: 10px;
+  width:70%;
+  height: 80px;
+}
 footer {
     position: fixed;
     height: 20px;
@@ -28,6 +33,7 @@ footer {
     width: 25%;
     background-color: red;
 }
+
 
 
  
