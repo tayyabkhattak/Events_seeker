@@ -1,4 +1,33 @@
-#logo{
-    height: 60px;
-    width: 60px;
+#logo {
+  height: 60px;
+  width: 60px;
 }
+body {
+  background: url(../Images/hel.jpg);
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+.card{
+    float: right;
+}
+footer {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    width: 25%;
+    background-color: red;
+}
+
+
+ 
